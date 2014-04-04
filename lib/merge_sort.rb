@@ -23,8 +23,3 @@ def merge(left, right)
   end
   sorted_arr
 end
-
-p merge_sort([])
-p merge_sort([6])
-p merge_sort([6, 5, 4, 3, 3, 2])
-p merge_sort([1, 2, 3, 4, 5])

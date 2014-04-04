@@ -19,12 +19,3 @@ def make_change(amt, coins=[25, 10, 5, 1])
   end
   possibles.sort_by { |x| x.length }.first
 end
-
-# p make_change(0) # []
-# p make_change(1) # [1]
-# p make_change(5) # [5]
-# p make_change(10) # [10]
-# p make_change(25) # [25]
-# p make_change(21) # [25, 5, 1, 1]
-
-p make_change(1, [10, 7, 2])

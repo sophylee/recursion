@@ -7,9 +7,3 @@ def fib(n)
   one_less << previous1 + previous2
   one_less
 end
-
-p fib(0) # [0]
-p fib(1) # [0, 1]
-p fib(2) # [0, 1, 1]
-p fib(3) # [0, 1, 1, 2]
-p fib(8) #
